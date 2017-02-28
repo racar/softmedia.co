@@ -1,0 +1,31 @@
+# Logfile created on 2017-02-05 18:54:22 -0500 by logger.rb/54362
+I, [2017-02-05T18:54:22.327183 #30215]  INFO -- : Thin web server (v1.6.4 codename Gob Bluth)
+I, [2017-02-05T18:54:22.327310 #30215]  INFO -- : Maximum connections set to 1024
+I, [2017-02-05T18:54:22.327342 #30215]  INFO -- : Listening on 0.0.0.0:3333, CTRL+C to stop
+I, [2017-02-09T17:17:13.684057 #55942]  INFO -- : Thin web server (v1.6.4 codename Gob Bluth)
+I, [2017-02-09T17:17:13.697190 #55942]  INFO -- : Maximum connections set to 1024
+I, [2017-02-09T17:17:13.697341 #55942]  INFO -- : Listening on 0.0.0.0:3333, CTRL+C to stop
+I, [2017-02-09T17:39:47.279392 #55942]  INFO -- : Waiting for 1 connection(s) to finish, can take up to 30 sec, CTRL+C to stop now
+I, [2017-02-09T17:40:04.569430 #56218]  INFO -- : Thin web server (v1.6.4 codename Gob Bluth)
+I, [2017-02-09T17:40:04.569547 #56218]  INFO -- : Maximum connections set to 1024
+I, [2017-02-09T17:40:04.569580 #56218]  INFO -- : Listening on 0.0.0.0:3333, CTRL+C to stop
+I, [2017-02-21T17:40:08.506803 #9871]  INFO -- : Thin web server (v1.6.4 codename Gob Bluth)
+I, [2017-02-21T17:40:08.521330 #9871]  INFO -- : Maximum connections set to 1024
+I, [2017-02-21T17:40:08.521503 #9871]  INFO -- : Listening on 0.0.0.0:3333, CTRL+C to stop
+I, [2017-02-25T00:30:12.946532 #32845]  INFO -- : Thin web server (v1.6.4 codename Gob Bluth)
+I, [2017-02-25T00:30:12.984466 #32845]  INFO -- : Maximum connections set to 1024
+I, [2017-02-25T00:30:12.984590 #32845]  INFO -- : Listening on 0.0.0.0:3333, CTRL+C to stop
+I, [2017-02-25T00:40:37.429986 #33011]  INFO -- : Thin web server (v1.6.4 codename Gob Bluth)
+I, [2017-02-25T00:40:37.468945 #33011]  INFO -- : Maximum connections set to 1024
+I, [2017-02-25T00:40:37.469090 #33011]  INFO -- : Listening on 0.0.0.0:3333, CTRL+C to stop
+I, [2017-02-25T00:43:21.276126 #33103]  INFO -- : Thin web server (v1.6.4 codename Gob Bluth)
+I, [2017-02-25T00:43:21.314643 #33103]  INFO -- : Maximum connections set to 1024
+I, [2017-02-25T00:43:21.314788 #33103]  INFO -- : Listening on 0.0.0.0:3333, CTRL+C to stop
+I, [2017-02-25T00:58:09.464361 #33103]  INFO -- : Waiting for 1 connection(s) to finish, can take up to 30 sec, CTRL+C to stop now
+I, [2017-02-25T01:00:52.756820 #33447]  INFO -- : Thin web server (v1.6.4 codename Gob Bluth)
+I, [2017-02-25T01:00:52.814270 #33447]  INFO -- : Maximum connections set to 1024
+I, [2017-02-25T01:00:52.814417 #33447]  INFO -- : Listening on 0.0.0.0:3333, CTRL+C to stop
+I, [2017-02-25T01:01:13.113514 #33447]  INFO -- : Waiting for 1 connection(s) to finish, can take up to 30 sec, CTRL+C to stop now
+I, [2017-02-25T01:11:26.024323 #33671]  INFO -- : Thin web server (v1.6.4 codename Gob Bluth)
+I, [2017-02-25T01:11:26.060263 #33671]  INFO -- : Maximum connections set to 1024
+I, [2017-02-25T01:11:26.060420 #33671]  INFO -- : Listening on 0.0.0.0:3333, CTRL+C to stop

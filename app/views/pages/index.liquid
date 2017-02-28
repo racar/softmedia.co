@@ -1,0 +1,144 @@
+---
+title: Home page
+published: true
+handle: home
+editable_elements:
+  content/main/first_column: "<h2>Análisis y Gestion de Proyectos</h2>\r\n      <p
+    class=\"lead\">Consultoria en definición de requerimientos ajustados a sus necesidades
+    y sin limitar el tamaño de su proyecto, teniendo siempre como premisa el desarrollo
+    por cíclos, la experimentacion y la iteración en la construcción de software.<br></p>"
+  content/main/second_column: "<h2>Landing pages, Sitios Web</h2><h2>&nbsp;&amp; Aplicaciones
+    Móviles</h2>\r\n      <p class=\"lead\">Programación de aplicaciones web o móviles
+    como gestores de contenido, sistemas de gestion, informes de seguimiento o dashboards
+    y tiendas en línea. Aplicaciones móviles que se conecten a sus sistemas backoffice
+    y más.<br></p>"
+  content/main/third_column: "<h2>Heading #3</h2>\r\n      <p>Donec sed odio dui.
+    Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula
+    porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+    condimentum nibh, ut fermentum massa.</p>"
+  content/main/last_column: "<h2 class=\"section-heading\">Marketing Digital Automatizado</h2>\r\n
+    \                 <p class=\"lead\">Creamos herramientas para organizar sus campañas
+    de marketing digital y analizar automáticamente a sus clientes potenciales a travez
+    de diversos canales como redes sociales, correo electrónico, aplicaciones móviles
+    y páginas web.</p><p class=\"lead\">.</p>"
+  content/main/img_second: ''
+  content/main/last_last_column: "<h2 class=\"section-heading\">Tecnologías</h2>\r\n
+    \                  <p class=\"lead\">Preferimos programar con las tecnologías
+    más destacadas para desarrollo de software: Html5, css, javascripts, angularJS,
+    ionic, ruby y rails, entre otras.</p>\r\n                  <p class=\"lead\">
+    Usamos un stack de primera categoría para administrar sus activos software y desplegar
+    eficazmente las aplicaciones en producción como son: digitalocean, aws, bitbucket,
+    git y linux centos, entre otros.</p>"
+
+---
+{% extends 'layouts/simple' %}
+
+{% block content/main %}
+
+<a  name="services"></a>
+  <div class="content-section-a">
+
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-5 col-sm-6">
+                  <hr class="section-heading-spacer">
+                  <div class="clearfix"></div>
+
+                  {% editable_text first_column %}
+                  <h2 class="section-heading">Análisis y gestión de proyectos</h2>
+                  <p class="lead">Consultoria en definición de requerimientos ajustados a sus necesidades y sin limitar el tamaño de su proyecto, teniendo siempre como premisa el desarrollo por cíclos, la experimentacion y la iteración en la construcción de software.</p>
+
+                  {% endeditable_text %}
+
+              </div>
+              <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+
+                <img src="{{ 'analisis_req.jpg' | theme_image_url }}" class="img-responsive" />
+              </div>
+          </div>
+
+      </div>
+      <!-- /.container -->
+
+  </div>
+  <!-- /.content-section-a -->
+
+  <div class="content-section-b">
+
+      <div class="container">
+
+          <div class="row">
+              <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                  <hr class="section-heading-spacer">
+                  <div class="clearfix"></div>
+                  {% editable_text second_column %}
+                  <h2 class="section-heading">Landing pages, Sitios Web<br>y Aplicaciones Móviles</h2>
+                  <p class="lead">Programación de aplicaciones web o móviles que van desde gestores de contenido, sistemas de gestion de clientes, informes de seguimiento o dashboards, tiendas en línea y sistemas de gestión. Aplicaciones móviles que se conecten a sus sistemas backoffice y más.</p>
+
+                  {% endeditable_text %}
+              </div>
+              <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+
+                <img src="{{ 'desarrollo.jpg' | theme_image_url }}" class="img-responsive" />
+
+              </div>
+          </div>
+
+      </div>
+      <!-- /.container -->
+
+  </div>
+  <!-- /.content-section-b -->
+
+  <div class="content-section-a">
+
+      <div class="container">
+
+          <div class="row">
+              <div class="col-lg-5 col-sm-6">
+                  <hr class="section-heading-spacer">
+                  <div class="clearfix"></div>
+                  {% editable_text last_column %}
+                  <h2 class="section-heading">Marketing Digital Automatizado</h2>
+                  <p class="lead">Ofresco consultoría en herramientas para organizar campañas de marketing digital y responder a sus clientes en diversos canales como redes sociales, correo electrónico, aplicaciones móviles y páginas web de manera automática.</p>
+                  {% endeditable_text %}
+              </div>
+              <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+
+
+                  <img src="{{ 'digital-marketing.jpg' | theme_image_url }}" class="img-responsive" />
+              </div>
+          </div>
+
+      </div>
+      <!-- /.container -->
+
+  </div>
+  <!-- /.content-section-a -->
+
+  <div class="content-section-b">
+
+      <div class="container">
+
+          <div class="row">
+              <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                  <hr class="section-heading-spacer">
+                  <div class="clearfix"></div>
+                  {% editable_text last_last_column %}
+                  <h2 class="section-heading">Tecnologías</h2>
+                  <p class="lead"> Preferimos programar con las tecnologías más destacadas para desarrollo de software: Html5, css, javascripts, angularJS, ionic, ruby y rails .</p>
+                  <p class="lead"> Usamos un stack de primera categoría para gestionar las fuentes y desplegar los proyectos en producción: digitalocean, bitbucket, git y linux centos.</p>
+                  {% endeditable_text %}
+              </div>
+              <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+
+                <img src="{{ 'techs.png' | theme_image_url }}" class="img-responsive" />
+              </div>
+          </div>
+
+      </div>
+      <!-- /.container -->
+
+  </div>
+
+{% endblock %}

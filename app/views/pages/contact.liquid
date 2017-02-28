@@ -1,0 +1,28 @@
+---
+title: Contacto
+published: true
+handle: contact
+---
+{% extends 'layouts/basic' %}
+
+
+{% block content/main %}
+<div class="container">
+<h2 class="section-heading">Si desea contactarnos o realizar una consulta, registre sus datos y en breve responderemos:</h2>
+</div>
+<div class="container">
+
+  <form method="POST" action="http://formspree.io/rcarrascal@gmail.com" class="form-horizontal">
+    <div class="form-group">
+
+      <input type="email" name="email" placeholder="Su correo electrónico" class="form-control">
+  </div>
+  <div class="form-group">
+  <textarea class="form-control" rows="10" name="message" placeholder="Deje su mensaje"></textarea>
+  </div>
+  <div class="form-group">
+  <button type="submit" class="btn btn-success btn-lg"><i class="fa fa-paper-plane fa-fw"></i>Enviar</button>
+</div>
+</form>
+</div>
+{% endblock %}

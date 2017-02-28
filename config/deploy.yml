@@ -1,0 +1,22 @@
+# development:
+#   host: dev.example.com
+#   email: john@doe.net
+#   password: apassword
+#   # api_key: <your api key here>
+# staging:
+#   host: staging.example.com
+#   email: john@doe.net
+#   password: apassword
+#   # api_key: <your api key here>
+# production:
+#   host: www.example.com
+#   email: john@doe.net
+#   password: apassword
+#   # api_key: <your api key here>
+#   # ssl: true
+
+production:
+  host: http://104.236.250.111
+  handle: softmedia
+  email: rcarrascal@gmail.com
+  api_key: 1ee10dd0bd9127699ce2943f5f9cdcf59616d4c0

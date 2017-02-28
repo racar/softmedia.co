@@ -1,0 +1,46 @@
+---
+title: Default layout
+is_layout: false
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{ site.name }}</title>
+
+    <link rel="shortcut icon" href="{{ 'favicon.png' | theme_image_url }}">
+
+    {{ 'bootstrap.css' | stylesheet_tag }}
+    {{ 'application.css' | stylesheet_tag }}
+    {{ 'landing-page.css' | stylesheet_tag }}
+    {{ 'https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic' | stylesheet_tag }}
+    {{ 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' | stylesheet_tag }}
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-38150239-4', 'auto');
+  ga('send', 'pageview');
+
+  </script>
+  </head>
+  <body>
+    {% include 'nav' %}
+    {% include 'intro' %}
+
+    {% block content %}
+    {% endblock %}
+
+    {% include 'footer' %}
+
+    {{ 'jquery.min.js' | javascript_tag }}
+    {{ 'bootstrap.min.js' | javascript_tag }}
+    {{ 'application.js' | javascript_tag }}
+  </body>
+</html>
