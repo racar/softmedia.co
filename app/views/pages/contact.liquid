@@ -12,17 +12,88 @@ handle: contact
 </div>
 <div class="container">
 
-  <form method="POST" action="http://formspree.io/rcarrascal@gmail.com" class="form-horizontal">
-    <div class="form-group">
 
-      <input type="email" name="email" placeholder="Su correo electrónico" class="form-control">
+  <style type="text/css" scoped>
+      .mauticform_wrapper { max-width: 600px; margin: 10px auto; }
+      .mauticform-innerform {}
+      .mauticform-post-success {}
+      .mauticform-name { font-weight: bold; font-size: 1.5em; margin-bottom: 3px; }
+      .mauticform-description { margin-top: 2px; margin-bottom: 10px; }
+      .mauticform-error { margin-bottom: 10px; color: red; }
+      .mauticform-message { margin-bottom: 10px;color: green; }
+      .mauticform-row { display: block; margin-bottom: 20px; }
+      .mauticform-label { font-size: 1.1em; display: block; font-weight: bold; margin-bottom: 5px; }
+      .mauticform-row.mauticform-required .mauticform-label:after { color: #e32; content: " *"; display: inline; }
+      .mauticform-helpmessage { display: block; font-size: 0.9em; margin-bottom: 3px; }
+      .mauticform-errormsg { display: block; color: red; margin-top: 2px; }
+      .mauticform-selectbox, .mauticform-input, .mauticform-textarea { width: 100%; padding: 0.5em 0.5em; border: 1px solid #CCC; background: #fff; box-shadow: 0px 0px 0px #fff inset; border-radius: 4px; box-sizing: border-box; }
+      .mauticform-checkboxgrp-row {}
+      .mauticform-checkboxgrp-label { font-weight: normal; }
+      .mauticform-checkboxgrp-checkbox {}
+      .mauticform-radiogrp-row {}
+      .mauticform-radiogrp-label { font-weight: normal; }
+      .mauticform-radiogrp-radio {}
+      .mauticform-button-wrapper .mauticform-button.btn-default, .mauticform-pagebreak-wrapper .mauticform-pagebreak.btn-default { color: #5d6c7c;background-color: #ffffff;border-color: #dddddd;}
+      .mauticform-button-wrapper .mauticform-button, .mauticform-pagebreak-wrapper .mauticform-pagebreak { display: inline-block;margin-bottom: 0;font-weight: 600;text-align: center;vertical-align: middle;cursor: pointer;background-image: none;border: 1px solid transparent;white-space: nowrap;padding: 6px 12px;font-size: 13px;line-height: 1.3856;border-radius: 3px;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+      .mauticform-button-wrapper .mauticform-button.btn-default[disabled], .mauticform-pagebreak-wrapper .mauticform-pagebreak.btn-default[disabled] { background-color: #ffffff; border-color: #dddddd; opacity: 0.75; cursor: not-allowed; }
+      .mauticform-pagebreak-wrapper .mauticform-button-wrapper {  display: inline; }
+  </style>
+  <div id="mauticform_wrapper_contactosoftmedia" class="mauticform_wrapper">
+      <form autocomplete="false" role="form" method="post" action="http://softmedia.co:8080/form/submit?formId=1" id="mauticform_contactosoftmedia" data-mautic-form="contactosoftmedia">
+          <div class="mauticform-error" id="mauticform_contactosoftmedia_error"></div>
+          <div class="mauticform-message" id="mauticform_contactosoftmedia_message"></div>
+          <div class="mauticform-innerform">
+
+
+            <div class="mauticform-page-wrapper mauticform-page-1" data-mautic-form-page="1">
+
+              <div id="mauticform_contactosoftmedia_nombre"  data-validate="nombre" data-validation-type="text" class="mauticform-row mauticform-text mauticform-field-1 mauticform-required">
+                  <label id="mauticform_label_contactosoftmedia_nombre" for="mauticform_input_contactosoftmedia_nombre" class="mauticform-label">Nombre</label>
+                  <span class="mauticform-helpmessage">First Name</span>
+                  <input id="mauticform_input_contactosoftmedia_nombre" name="mauticform[nombre]" value="" class="mauticform-input" type="text" />
+                  <span class="mauticform-errormsg" style="display: none;">This is required.</span>
+              </div>
+
+              <div id="mauticform_contactosoftmedia_correo_electronico"  data-validate="correo_electronico" data-validation-type="email" class="mauticform-row mauticform-email mauticform-field-2 mauticform-required">
+                  <label id="mauticform_label_contactosoftmedia_correo_electronico" for="mauticform_input_contactosoftmedia_correo_electronico" class="mauticform-label">Correo electrónico</label>
+                  <span class="mauticform-helpmessage">Email</span>
+                  <input id="mauticform_input_contactosoftmedia_correo_electronico" name="mauticform[correo_electronico]" value="" class="mauticform-input" type="email" />
+                  <span class="mauticform-errormsg" style="display: none;">This is required.</span>
+              </div>
+
+              <div id="mauticform_contactosoftmedia_skype"  class="mauticform-row mauticform-text mauticform-field-3">
+                  <label id="mauticform_label_contactosoftmedia_skype" for="mauticform_input_contactosoftmedia_skype" class="mauticform-label">Skype</label>
+                  <input id="mauticform_input_contactosoftmedia_skype" name="mauticform[skype]" value="" class="mauticform-input" type="text" />
+                  <span class="mauticform-errormsg" style="display: none;"></span>
+              </div>
+
+              <div id="mauticform_contactosoftmedia_linkedin"  class="mauticform-row mauticform-text mauticform-field-4">
+                  <label id="mauticform_label_contactosoftmedia_linkedin" for="mauticform_input_contactosoftmedia_linkedin" class="mauticform-label">Linkedin</label>
+                  <input id="mauticform_input_contactosoftmedia_linkedin" name="mauticform[linkedin]" value="" class="mauticform-input" type="text" />
+                  <span class="mauticform-errormsg" style="display: none;"></span>
+              </div>
+
+              <div id="mauticform_contactosoftmedia_cuentanos_tu_idea_o_reque"  data-validate="cuentanos_tu_idea_o_reque" data-validation-type="textarea" class="mauticform-row mauticform-text mauticform-field-5 mauticform-required">
+                  <label id="mauticform_label_contactosoftmedia_cuentanos_tu_idea_o_reque" for="mauticform_input_contactosoftmedia_cuentanos_tu_idea_o_reque" class="mauticform-label">Cuéntanos tu idea o requerimiento</label>
+                  <span class="mauticform-helpmessage">Tell us about your idea</span>
+                  <textarea id="mauticform_input_contactosoftmedia_cuentanos_tu_idea_o_reque" name="mauticform[cuentanos_tu_idea_o_reque]" class="mauticform-textarea"></textarea>
+                  <span class="mauticform-errormsg" style="display: none;">This is required.</span>
+              </div>
+
+              <div id="mauticform_contactosoftmedia_submit"  class="mauticform-row mauticform-button-wrapper mauticform-field-6">
+                  <button type="submit" name="mauticform[submit]" id="mauticform_input_contactosoftmedia_submit" name="mauticform[submit]" value="" class="mauticform-button btn btn-default" value="1">Enviar (Submit)</button>
+              </div>
+              </div>
+          </div>
+
+          <input type="hidden" name="mauticform[formId]" id="mauticform_contactosoftmedia_id" value="1"/>
+          <input type="hidden" name="mauticform[return]" id="mauticform_contactosoftmedia_return" value=""/>
+          <input type="hidden" name="mauticform[formName]" id="mauticform_contactosoftmedia_name" value="contactosoftmedia"/>
+  </form>
   </div>
-  <div class="form-group">
-  <textarea class="form-control" rows="10" name="message" placeholder="Deje su mensaje"></textarea>
-  </div>
-  <div class="form-group">
-  <button type="submit" class="btn btn-success btn-lg"><i class="fa fa-paper-plane fa-fw"></i>Enviar</button>
-</div>
-</form>
+
+
+
+
 </div>
 {% endblock %}

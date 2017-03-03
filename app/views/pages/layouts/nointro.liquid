@@ -28,6 +28,27 @@ is_layout: false
       ga('send', 'pageview');
 
     </script>
+    <script type="text/javascript">
+
+      /** This section is only needed once per page if manually copying **/
+      if (typeof MauticSDKLoaded == 'undefined') {
+          var MauticSDKLoaded = true;
+          var head            = document.getElementsByTagName('head')[0];
+          var script          = document.createElement('script');
+          script.type         = 'text/javascript';
+          script.src          = 'http://softmedia.co:8080/media/js/mautic-form.js';
+          script.onload       = function() {
+              MauticSDK.onLoad();
+          };
+          head.appendChild(script);
+          var MauticDomain = 'http://softmedia.co:8080';
+          var MauticLang   = {
+              'submittingMessage': "Por favor espere (Please wait...)"
+          }
+      }
+  </script>
+
+
   </head>
   <body>
     {% include 'nav' %}
